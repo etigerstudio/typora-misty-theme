@@ -26,4 +26,4 @@ func main() {
 
 ## Qoutes
 
-> All fevers are due to be freed.   - ALuier Bondar
+> Success is a journey, not a destination. The doing is often more important than the outcome.
