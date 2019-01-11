@@ -14,7 +14,9 @@ The above screenshot is a demo for all the styles provided in the Misty Theme, m
 
 ## Installation
 
-Download misty-theme.css and copy it into the themes folder of Typora. Select 'Misty Theme' form the theme list. A restart might be needed for discovering and loading the theme file, if the theme list does not contain it.
+Download [misty-theme.css](https://github.com/etigerstudio/typora-misty-theme/releases/latest) and copy it into the themes folder of Typora. Select 'Misty Theme' form the theme list to apply it. You may restart Typora once to help it discover and load the theme file, if 'Misty Theme' cannot be found in the theme list.
+
+For detailed reference, please see [Install Theme](https://theme.typora.io/doc/Install-Theme/)
 
 ## Compatibility
 
