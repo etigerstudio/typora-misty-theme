@@ -12,6 +12,12 @@ Tweaked for both English🇺🇸 & 中文🇨🇳. Works on both macOS & Windows
 
 The above screenshot is a demo for all the styles provided in the Misty Theme, meaning that rendering of all other built-in features of Typora (such as lists, math blocks, etc.) is kept untouched and is supposed to work in default behaviors.
 
+One more rendering demo of introduction text:
+
+<p align="center">
+  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/misty-theme.png" alt="Misty Theme" width="674"/>
+</p>
+
 ## Installation
 
 Download [misty-theme.css](https://github.com/etigerstudio/typora-misty-theme/releases/latest) and copy it into the themes folder of Typora. Select 'Misty Theme' form the theme list to apply it. You may restart Typora once to help it discover and load the theme file, if 'Misty Theme' cannot be found in the theme list.
