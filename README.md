@@ -6,6 +6,10 @@ Tweaked for both English🇺🇸 & 中文🇨🇳. Works on both macOS & Windows
 
 ## Rendering demo
 
+<p align="center">
+  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/rendering-demo.png" alt="drawing" width="674"/>
+</p>
+
 The above screenshot is a demo for all the styles provided in the Misty Theme, meaning that rendering of all other built-in features of Typora (such as lists, math blocks, etc.) is kept untouched and is supposed to work in default behaviors.
 
 ## Installation
@@ -20,4 +24,4 @@ Font fallback list is tweaked for both English and Chinese, on both macOS and Wi
 
 
 
-Brought to you with ❤️ by E-Tiger Studio, 2017-2019.
+> Brought to you with ❤️ by E-Tiger Studio, 2017-2019.
