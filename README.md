@@ -28,6 +28,6 @@ For detailed reference, please see [Install Theme](https://theme.typora.io/doc/I
 
 This theme is both test on `macOS 10.13.6` and `Windows 10 version 1703`.
 
-Font fallback list is tweaked for both English and Chinese, on both macOS and Windows, while font rendering on macOS is *slightly more comfortable* than that on Windows currently. This platform-specific issue will be thoroughly tested and addressed at future versions.
+Font fallback list is tweaked for both English and Chinese, on both macOS and Windows, while font weight set on Windows might be *too light* to affect overall readability. This platform-specific issue will be thoroughly tested and addressed at future versions.
 
 > Brought to you with ❤️ by E-Tiger Studio, 2017-2019.
