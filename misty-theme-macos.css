@@ -303,17 +303,17 @@ code, tt {
     padding-bottom: 12px;
 }
 
-.task-list{
+/*.task-list{
 	padding-left: 0;
 }
 
 .task-list-item {
 	padding-left:32px;
-}
+}*/
 
-.task-list-item input {
-  top: 3px;
-  left: 8px;
+.md-task-list-item>input {
+    margin-left: -1.45em;
+    margin-top: calc(0.9em - 10px);
 }
 
 @media screen and (min-width: 914px) {
