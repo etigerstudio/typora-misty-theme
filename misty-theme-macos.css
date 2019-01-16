@@ -429,10 +429,6 @@ header, .context-menu, .megamenu-content, footer{
     color: #b4654d;
 }
 
-.file-list-item-summary {
-    font-family: 'SF UI Text';
-}
-
 .pin-outline .outline-active,
 .pin-outline #outline-content .outline-active strong {
     font-weight: 400;
@@ -446,6 +442,10 @@ header, .context-menu, .megamenu-content, footer{
 
 strong, b {
     font-weight: 400;
+}
+
+.file-list-item-summary {
+    font-family: "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 /*p .md-image{
