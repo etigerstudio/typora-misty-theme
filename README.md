@@ -4,6 +4,8 @@ Yet another `subtle`,`elegant` & `unobstructive` theme aimed at the philosophy o
 
 Tweaked for both English🇺🇸 & 中文🇨🇳. Works on both macOS & Windows.
 
+**Dark mode** 🌑 is now in preview stage. [Try it out.](https://github.com/etigerstudio/typora-misty-theme/releases/tag/v0.3-alpha)
+
 ## Rendering demo
 
 <p align="center">
