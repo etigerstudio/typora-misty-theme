@@ -1,0 +1,40 @@
+body {
+    font-weight: 400;
+    -webkit-font-smoothing: auto;
+}
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.md-task-list-item>input {
+    margin-top: calc(1em - 10px);
+}
+
+
+.pin-outline .outline-active,
+.pin-outline #outline-content .outline-active strong {
+    font-weight: 500;
+}
+
+.outline-label {
+    font-weight: 400;
+}
+
+strong, b {
+    font-weight: 500;
+}
+
+
+.file-list-item-file-name {
+    font-weight: 500;
+}

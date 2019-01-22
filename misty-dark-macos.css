@@ -1,9 +1,14 @@
 @import 'night/codeblock.dark.css';
 
 :root {
-    --side-bar-bg-color: #fafafa;
-    --control-text-color: #777;
-    --side-bar-bg-color: #f6f8fa;
+    --control-text-color: #8B97A3; 
+    --side-bar-bg-color: #171717;
+    --window-border: 1px solid rgba(0,0,0,.07);
+    --active-file-bg-color: #242424;
+    --active-file-text-color: #B8C8D9;
+    --item-hover-bg-color: #242424; 
+    --heading-char-color: #4D6580;
+    --text-color: #8B97A3;
 }
 
 html {
@@ -435,12 +440,12 @@ header, .context-menu, .megamenu-content, footer{
 .pin-outline .outline-active,
 .pin-outline #outline-content .outline-active strong {
     font-weight: 400;
-    color: rgb(35,35,35);
+    color: #A0AEBD;
 }
 
 .outline-label {
     font-weight: 300;
-    color: rgb(100,100,100);
+    color: #7C8691;
 }
 
 strong, b {
@@ -448,7 +453,16 @@ strong, b {
 }
 
 .file-list-item-summary {
+    color: #77818C;
     font-family: "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.active > .file-list-item-summary {
+    color: #B8C8D9;
+}
+
+.file-list-item-file-name {
+    font-weight: 400;
 }
 
 /*p .md-image{
