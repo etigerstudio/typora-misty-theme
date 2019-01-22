@@ -1,0 +1,458 @@
+:root {
+    --control-text-color: #777;
+    --side-bar-bg-color: #f6f8fa;
+}
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+    font-family: "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /*font-family: -apple-system, -apple-system-body, BlinkMacSystemFont, "PingFang SC", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+    color: #24292e;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+#write{
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 20px 30px 40px 30px;
+	padding-top: 20px;
+    padding-bottom: 100px;
+}
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+body > *:first-child {
+    margin-top: 0 !important;
+}
+body > *:last-child {
+    margin-bottom: 0 !important;
+}
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    cursor: text;
+    color: #142331;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    /*background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;*/
+    text-decoration: none;
+}
+
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+font-size: inherit;
+}
+h1 {
+    text-align: center;
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    margin: 1em auto 1.2em auto;
+    font-weight: 300;
+    /*border-bottom: 1px solid #eee;*/
+}
+h1:after{
+border-bottom: 2px dashed #afec9e;
+    content: '';
+    width: 100px;
+    display: block;
+    margin: 0.2em auto 0 auto;
+    height: 2px;
+}
+/*h1+h2, h2+h3 {
+    margin-top: 0.83rem;
+}*/
+h2 {
+   /*padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;*/
+    font-size: 1.75em;
+    padding-left: 9px;
+    line-height: 1.4;
+    border-left: 6px solid #cce5ff;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h3:before {
+    border-radius: 50%;
+    background-color: #9ed0ff;
+    content: '';
+    width: 6px;
+    display: inline-block;
+    height: 6px;
+    vertical-align: middle;
+    margin-bottom: 0.18em;
+    margin-right: 8px;
+}
+#write>h3.md-focus:before,
+#write>h4.md-focus:before {
+    background-color: transparent;
+    width: auto;
+    height: auto;
+}
+h4 {
+    font-size: 1.25em;
+}
+h4:before {
+    background-color: #9ed0ff;
+    content: '';
+    width: 6px;
+    display: inline-block;
+    height: 2px;
+    vertical-align: middle;
+    margin-bottom: 0.18em;
+    margin-right: 8px;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+  height: 0.25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #e1e4e8;
+  border: 0;
+}
+
+body > h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h1:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+body > h3:first-child,
+body > h4:first-child,
+body > h5:first-child,
+body > h6:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+a:first-child h1,
+a:first-child h2,
+a:first-child h3,
+a:first-child h4,
+a:first-child h5,
+a:first-child h6 {
+    margin-top: 0;
+    padding-top: 0;
+}
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p {
+    margin-top: 0;
+}
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    /*border-left: 4px solid #dddddd;*/
+    border-left: 4px dotted #e5e8e8;
+    padding: 0 12px;
+    color: #444444;
+    font-size: 0.9em;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n) {
+    background-color: #fafafa;
+}
+table tr th {
+    font-weight: 400;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-gutters {
+    border-right: 1px solid #ddd;
+}
+
+.md-fences,
+code,
+tt {
+    font-size: 90%;
+    border-radius: 3px;
+    /*font-family: Consolas, "Liberation Mono", Courier, monospace;*/
+    /*padding: 2px 4px 0px 4px;*/
+    /*font-size: 0.9em;*/
+    font-family: "SF Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace, "PingFang SC", "Microsoft YaHei", "微软雅黑";
+}
+
+code, tt {
+    margin: 0 2px;
+    padding: 2px 4px;
+    background-color: #e2f0ff;
+    /*background-color: rgba(27,31,35,0.05);*/
+}
+
+.md-fences {
+    background-color: #f6f8fa;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0.2em 1em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/*.task-list{
+	padding-left: 0;
+}
+
+.task-list-item {
+	padding-left:32px;
+}*/
+
+.md-task-list-item>input {
+    margin-left: -1.45em;
+    margin-top: calc(0.9em - 10px);
+}
+
+@media screen and (min-width: 914px) {
+    /*body {
+        width: 854px;
+        margin: 0 auto;
+    }*/
+}
+@media print {
+    body {
+        font-size: 11px;
+        font-weight: 400;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    /*background-color: #f7f7f7;*/
+    background-color: rgb(247, 250, 246);
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-family: "SF Mono", Consolas, "PingFang SC", "Liberation Mono", Courier, monospace, "Microsoft YaHei", "微软雅黑";
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag{
+	color: inherit;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#md-notification:before {
+    top: 10px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+  font-family: "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.pin-outline .outline-active,
+.pin-outline #outline-content .outline-active strong {
+    font-weight: 400;
+    color: rgb(35,35,35);
+}
+
+.outline-label {
+    font-weight: 300;
+    color: rgb(100,100,100);
+}
+
+strong, b {
+    font-weight: 400;
+}
+
+.file-list-item-summary {
+    font-family: "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.file-list-item-file-name {
+    font-weight: 400;
+}
+
+/*p .md-image{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}*/
