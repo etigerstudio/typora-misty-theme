@@ -39,6 +39,13 @@ Misty is both test on `macOS 10.13.6` and `Windows 10 version 1703`. However, it
 
 Font fallback list is tweaked for both English and Chinese, on both macOS and Windows. Font weight values have been slightly adjusted on Windows to match Windows-specific rendering characteristic.
 
+## Known Issues
+
+- Borders of buttons on all platforms and context menu on *Windows* are too bright in *Dark* mode.
+- Background of reference panel on *Windows* is too bright in *Dark* mode.
+- Colors and layouts of math block on all platforms need to be inspected and tuned.
+- Font fallback list and rendering effect has not been tested on *Linux*.
+
 
 
 > Brought to you with ❤️ by E-Tiger Studio, 2017-2019.
