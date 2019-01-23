@@ -401,6 +401,18 @@ code, tt {
     border-width: 1px;
 }
 
+.typora-quick-open-item {
+    padding-top: 3px;
+}
+
+.typora-quick-open-list {
+    margin-top: 4px;
+}
+
+.typora-quick-open-item-path {
+    margin-top: -2px;
+}
+
 #md-notification:before {
     top: 10px;
 }

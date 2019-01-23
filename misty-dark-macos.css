@@ -426,11 +426,6 @@ code, tt {
     top: 10px;
 }
 
-/** focus mode */
-.on-focus-mode blockquote {
-    border-left-color: rgba(85, 85, 85, 0.12);
-}
-
 header, .context-menu, .megamenu-content, footer{
   font-family: "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -478,6 +473,43 @@ strong, b {
 
 #write div.md-toc-tooltip {
     background-color: #2B2B2B;
+}
+
+/* right click menu */
+.context-menu {
+  background-color: #171717;
+}
+
+.context-menu.dropdown-menu .divider {
+  background-color: #242424;
+}
+
+/* focus mode */
+.on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) * {
+  color: #575E66 !important;
+}
+
+.on-focus-mode .md-end-block:not(.md-focus) img,
+.on-focus-mode .md-task-list-item:not(.md-focus-container)>input {
+  opacity: #575E66 !important;
+}
+
+.on-focus-mode li[cid]:not(.md-focus-container){
+  color: #575E66;
+}
+
+.on-focus-mode .md-fences.md-focus .CodeMirror-code>*:not(.CodeMirror-activeline) *,
+.on-focus-mode .CodeMirror.cm-s-inner:not(.CodeMirror-focused) * {
+  color: #575E66 !important;
+}
+
+.on-focus-mode .md-focus,
+.on-focus-mode .md-focus-container {
+  color: #B4C3D4;
+}
+
+.on-focus-mode #typora-source .CodeMirror-code>*:not(.CodeMirror-activeline) * {
+  color: #575E66 !important;
 }
 
 /*p .md-image{
