@@ -18,9 +18,9 @@ body {
 
 #write{
     max-width: 860px;
-  	margin: 0 auto;
-  	padding: 20px 30px 40px 30px;
-	padding-top: 20px;
+    margin: 0 auto;
+    padding: 20px 30px 40px 30px;
+    padding-top: 20px;
     padding-bottom: 100px;
 }
 #write > ul:first-child,
@@ -303,11 +303,11 @@ code, tt {
 }
 
 /*.task-list{
-	padding-left: 0;
+    padding-left: 0;
 }
 
 .task-list-item {
-	padding-left:32px;
+    padding-left:32px;
 }*/
 
 .md-task-list-item>input {
@@ -336,7 +336,7 @@ code, tt {
 }
 
 #write pre.md-meta-block {
-	padding: 1rem;
+    padding: 1rem;
     font-size: 85%;
     line-height: 1.45;
     /*background-color: #f7f7f7;*/
@@ -348,24 +348,24 @@ code, tt {
 }
 
 .mathjax-block>.code-tooltip {
-	bottom: .375rem;
+    bottom: .375rem;
 }
 
 #write>h3.md-focus:before{
-	left: -1.5625rem;
-	top: .375rem;
+    left: -1.5625rem;
+    top: .375rem;
 }
 #write>h4.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
+    left: -1.5625rem;
+    top: .285714286rem;
 }
 #write>h5.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
+    left: -1.5625rem;
+    top: .285714286rem;
 }
 #write>h6.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
+    left: -1.5625rem;
+    top: .285714286rem;
 }
 .md-image>.md-meta {
     border: 1px solid #ddd;
@@ -377,7 +377,7 @@ code, tt {
 }
 
 .md-tag{
-	color: inherit;
+    color: inherit;
 }
 
 .md-toc { 
@@ -399,6 +399,18 @@ code, tt {
     border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
     border-style: solid;
     border-width: 1px;
+}
+
+.typora-quick-open-item {
+    padding-top: 3px;
+}
+
+.typora-quick-open-list {
+    margin-top: 4px;
+}
+
+.typora-quick-open-item-path {
+    margin-top: -2px;
 }
 
 #md-notification:before {
