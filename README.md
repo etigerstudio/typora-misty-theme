@@ -11,13 +11,13 @@ Ships with **Light** 🌞 & **Dark** 🌑 color schemes. [Download](https://gith
 Introduction text in Light:
 
 <p align="center">
-  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/misty-light-demo.png" alt="misty-light-demo" width="888"/>
+  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/misty-light-demo.png" alt="misty-light-demo" width="887"/>
 </p>
 
 Introduction text in Dark:
 
 <p align="center">
-  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/misty-dark-demo.png" alt="misty-dark-demo" width="888"/>
+  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/misty-dark-demo.png" alt="misty-dark-demo" width="887"/>
 </p>
 
 Major styles in Light:

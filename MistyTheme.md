@@ -4,7 +4,7 @@
 
 Yet another `subtle`,`elegant` & `unobstructive` theme aimed at the philosophy of `simplicity`, `aesthetic` and `readability`, for the awesome [Typora](https://typora.io/) markdown editor and reader.
 
-> Success is a journey, not a destination. The doing is often more important than the outcome.
+> Success is a journey, not a destination. The doing is often more important than the outcome.												 — Arthur Ashe
 
 ### Tweaked for both English🇺🇸 & 中文🇨🇳
 

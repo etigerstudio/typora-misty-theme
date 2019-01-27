@@ -26,7 +26,7 @@ func main() {
 
 ## Qoutes
 
-> Success is a journey, not a destination. The doing is often more important than the outcome.
+> Success is a journey, not a destination. The doing is often more important than the outcome.												 — Arthur Ashe
 
 ## Task List
 
