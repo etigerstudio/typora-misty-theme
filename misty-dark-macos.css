@@ -251,22 +251,22 @@ table {
     word-break: initial;
 }
 table tr {
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid #53575c;
     margin: 0;
     padding: 0;
 }
-table tr:nth-child(2n) {
-    background-color: #fafafa;
+table.md-table tr:nth-child(2n) {
+    background-color: #32373d;
 }
 table tr th {
     font-weight: 400;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #53575c;
     text-align: left;
     margin: 0;
     padding: 6px 13px;
 }
 table tr td {
-    border: 1px solid #e0e0e0;
+    border: 1px solid #53575c;
     text-align: left;
     margin: 0;
     padding: 6px 13px;
