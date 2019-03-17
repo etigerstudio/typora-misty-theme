@@ -41,7 +41,7 @@ Font fallback list is tweaked for both English and Chinese, on both macOS and Wi
 
 ## Known Issues
 
-- Borders of buttons on all platforms and context menu on *Windows* are too bright in *Dark* mode.
+- ~~Borders of buttons on all platforms and context menu on *Windows* are too bright in *Dark* mode.~~
 - Background of reference panel on *Windows* is too bright in *Dark* mode.
 - Colors and layouts of math block on all platforms need to be inspected and tuned.
 - Font fallback list and rendering effect has not been tested on *Linux*.

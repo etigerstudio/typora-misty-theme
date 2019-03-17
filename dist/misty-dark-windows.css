@@ -115,12 +115,14 @@
 :root {
     --control-text-color: #8B97A3; 
     --side-bar-bg-color: #171717;
+    --bg-color: #242424;
     --window-border: 1px solid rgba(0,0,0,.07);
     --active-file-bg-color: #242424;
     --active-file-text-color: #B8C8D9;
     --item-hover-bg-color: #242424; 
     --heading-char-color: #4D6580;
     --text-color: #8B97A3;
+    --active-toggle-btn-color: #53575C;
 }
 
 html {
@@ -589,11 +591,11 @@ strong, b {
 
 /* right click menu */
 .context-menu {
-  background-color: #171717;
+    background-color: #242424;
 }
 
 .context-menu.dropdown-menu .divider {
-  background-color: #242424;
+    background-color: #53575C;
 }
 
 /* focus mode */
@@ -629,6 +631,22 @@ strong, b {
     width: 50%;
     text-align: center;
 }*/
+
+.menu-style-btn {
+    border: #53575C 1px solid;
+}
+
+.modal-content {
+    border: #53575C 1px solid;
+}
+
+input {
+    border-color: #53575C;
+}
+
+footer.stopselect {
+    border-top-color: #53575C;
+}
 
 body {
     font-weight: 400;
