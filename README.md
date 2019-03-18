@@ -26,7 +26,6 @@ Major styles in Light:
   <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/rendering-demo.png" alt="rendering-demo" width="674"/>
 </p>
 
-
 ## Installation
 
 [Download theme stylesheets](https://github.com/etigerstudio/typora-misty-theme/releases/latest) of the platform you work on and color schemes you like. Copy it into the themes folder of Typora. Select theme name (eg. `Misty Light Macos`) form the theme list to apply it. You may restart Typora once to help it discover and load the theme file, if it cannot be found in the theme list.
@@ -39,13 +38,16 @@ Misty is both test on `macOS 10.13.6` and `Windows 10 version 1703`. However, it
 
 Font fallback list is tweaked for both English and Chinese, on both macOS and Windows. Font weight values have been slightly adjusted on Windows to match Windows-specific rendering characteristic.
 
+## Pending Works
+
+Source of Misty Theme will be ported to SACC or PostCSS in a future release to improve maintainability.
+
 ## Known Issues
 
 - ~~Borders of buttons on all platforms and context menu on *Windows* are too bright in *Dark* mode.~~
-- Background of reference panel on *Windows* is too bright in *Dark* mode.
+- Text color & Background of Preference Panel on *Windows* is too bright in *Dark* mode.
 - Colors and layouts of math block on all platforms need to be inspected and tuned.
 - Font fallback list and rendering effect has not been tested on *Linux*.
-
-
+- Text thickness & font family rendered may not be consistent on Windows of different builds or in different languages.
 
 > Brought to you with ❤️ by E-Tiger Studio, 2017-2019.
