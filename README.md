@@ -8,29 +8,37 @@ Ships with **Light** 🌞 & **Dark** 🌑 color schemes. [Download](https://gith
 
 ## Quick Glance
 
-Introduction text in Light:
+Light mode:
 
 <p align="center">
   <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/misty-light-demo.png" alt="misty-light-demo" width="887"/>
 </p>
 
-Introduction text in Dark:
+Dark mode:
 
 <p align="center">
   <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/misty-dark-demo.png" alt="misty-dark-demo" width="887"/>
 </p>
 
-Major styles in Light:
+## Full Preview 
 
+<details><summary>Show light preview:</summary>
 <p align="center">
-  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/rendering-demo.png" alt="rendering-demo" width="674"/>
+  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/light-preview.png" alt="light-preview" width="648"/>
 </p>
+</details>
+
+<details><summary>Show dark preview:</summary>
+<p align="center">
+  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/dark-preview.png" alt="dark-preview" width="648"/>
+</p>
+</details>
 
 ## Installation
 
-[Download theme stylesheets](https://github.com/etigerstudio/typora-misty-theme/releases/latest) of the platform you work on and color schemes you like. Copy it into the themes folder of Typora. Select theme name (eg. `Misty Light Macos`) form the theme list to apply it. You may restart Typora once to help it discover and load the theme file, if it cannot be found in the theme list.
+[Download theme stylesheets](https://github.com/etigerstudio/typora-misty-theme/releases/latest) of the platform you work on and color schemes you like. Copy it into the themes folder of Typora. Select theme name (eg. `Misty Light Macos`) form the theme list to apply it. You may restart Typora once to help it discover the theme file.
 
-For detailed reference, please see [Install Theme](https://theme.typora.io/doc/Install-Theme/)
+For detailed reference, please see [Install Theme](https://theme.typora.io/doc/Install-Theme/).
 
 ## Compatibility
 

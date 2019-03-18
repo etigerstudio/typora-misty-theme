@@ -10,9 +10,9 @@
 
 ###### Header5 #h6
 
-## Text styles
+## Text style
 
-Lorem ipsum dolor sit amet (Body), `consectetur` adipiscing elit (Inline Code). *Nunc* in urna rutrum (Normal emphasis), **pharetra** neque a (Strong emphasis). 
+Lorem ipsum dolor sit amet (Body), `consectetur` adipiscing elit (Inline Code). *Nunc* in urna rutrum (Normal emphasis), **pharetra** neque a (Strong emphasis). [Vestibulum](www.example.com) id dui ac (Hyperlink), ~~sagittis~~ mollis ante (Strike).
 
 ## Code Fences
 
@@ -28,22 +28,30 @@ func main() {
 
 > Success is a journey, not a destination. The doing is often more important than the outcome.												 — Arthur Ashe
 
-## Task List
+## Task Lists
 
 - [x] Morning meeting 💡
 - [x] Afternoon execising ⛹️‍♂️
 - [ ] Evening meditating 😶
 - [ ] Midnight drinking 🍷
 
-## Ordered List
+## Ordered Lists
 
 1. One 1️⃣
 2. Two 2️⃣
 3. Three 3️⃣
 
-## Unordered List
+## Unordered Lists
 
 - Ghost 👻
 - Alien 👽
 - Devil 😈
+
+## Tables
+
+| Technology | Function  | Popularity |
+| ---------- | --------- | ---------- |
+| HTML       | Contents  | Medium     |
+| CSS        | Styles    | High       |
+| JS         | Behaviors | Very high  |
 
