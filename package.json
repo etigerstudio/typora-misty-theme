@@ -1,0 +1,19 @@
+{
+  "name": "typora-misty-theme",
+  "version": "0.1.0",
+  "description": "Yet another subtle, elegant & unobstructive theme for Typora",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.17.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://etigerstudio@github.com/etigerstudio/typora-misty-theme.git"
+  },
+  "author": "E-Tiger Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etigerstudio/typora-misty-theme/issues"
+  },
+  "homepage": "https://github.com/etigerstudio/typora-misty-theme#readme"
+}
