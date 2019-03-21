@@ -1,4 +1,4 @@
-@import 'night/codeblock.dark.css';
+@import 'codeblock-dark';
 
 :root {
     --control-text-color: #8B97A3;
@@ -7,7 +7,7 @@
     --window-border: 1px solid rgba(0,0,0,.07);
     --active-file-bg-color: #242424;
     --active-file-text-color: #B8C8D9;
-    --item-hover-bg-color: #242424; 
+    --item-hover-bg-color: #242424;
     --heading-char-color: #4D6580;
     --text-color: #8B97A3;
     --active-toggle-btn-color: #53575C;
@@ -390,7 +390,7 @@ code, tt {
 	color: inherit;
 }
 
-.md-toc { 
+.md-toc {
     margin-top:20px;
     padding-bottom:20px;
 }
@@ -410,7 +410,7 @@ code, tt {
 
 #typora-quick-open > #typora-quick-open-input > input::placeholder {
     color: #7C8691;
-} 
+}
 
 .typora-quick-open-item {
     padding-top: 3px;
