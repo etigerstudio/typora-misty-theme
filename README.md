@@ -11,26 +11,26 @@ Ships with **Light** 🌞 & **Dark** 🌑 color schemes. [Download](https://gith
 Light mode:
 
 <p align="center">
-  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/misty-light-demo.png" alt="misty-light-demo" width="887"/>
+  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/assets/misty-light-demo.png" alt="misty-light-demo" width="887"/>
 </p>
 
 Dark mode:
 
 <p align="center">
-  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/misty-dark-demo.png" alt="misty-dark-demo" width="887"/>
+  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/assets/misty-dark-demo.png" alt="misty-dark-demo" width="887"/>
 </p>
 
 ## Full Preview 
 
 <details><summary>Show light preview:</summary>
 <p align="center">
-  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/light-preview.png" alt="light-preview" width="648"/>
+  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/assets/light-preview.png" alt="light-preview" width="648"/>
 </p>
 </details>
 
 <details><summary>Show dark preview:</summary>
 <p align="center">
-  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/dark-preview.png" alt="dark-preview" width="648"/>
+  <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/assets/dark-preview.png" alt="dark-preview" width="648"/>
 </p>
 </details>
 
@@ -40,15 +40,24 @@ Dark mode:
 
 For detailed reference, please see [Install Theme](https://theme.typora.io/doc/Install-Theme/).
 
+## How to Build
+
+Misty is now written in SASS and the `dist\` folder has been dropped from this repo. You may directly download distributed builds from [release portal](https://github.com/etigerstudio/typora-misty-theme/releases/latest).
+
+If you need to manually build the theme, with `npm` installed, you could easily compile source SCSS to CSS Typora could read by running:
+
+```
+npm i --only=dev
+npx gulp build
+```
+
+Compiled & optimized CSS files can then be fould in `dist\`.
+
 ## Compatibility
 
 Misty is both test on `macOS 10.13.6` and `Windows 10 version 1703`. However, it has not been tested on `Linux` thoroughly yet and will be tested in future. 
 
 Font fallback list is tweaked for both English and Chinese, on both macOS and Windows. Font weight values have been slightly adjusted on Windows to match Windows-specific rendering characteristic.
-
-## Pending Works
-
-Source of Misty Theme will be ported to SACC or PostCSS in a future release to improve maintainability.
 
 ## Known Issues
 
@@ -57,5 +66,6 @@ Source of Misty Theme will be ported to SACC or PostCSS in a future release to i
 - Colors and layouts of math block on all platforms need to be inspected and tuned.
 - Font fallback list and rendering effect has not been tested on *Linux*.
 - Text thickness & font family rendered may not be consistent on Windows of different builds or in different languages.
+- Colors of tooltips need to adjusted in dark mode.
 
 > Brought to you with ❤️ by E-Tiger Studio, 2017-2019.
