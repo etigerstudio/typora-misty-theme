@@ -11,6 +11,7 @@
     --heading-char-color: #4D6580;
     --text-color: #8B97A3;
     --active-toggle-btn-color: #53575C;
+    --rawblock-edit-panel-bd: #3A3C3D;
 }
 
 html {
@@ -493,7 +494,7 @@ strong, b {
 
 .on-focus-mode .md-end-block:not(.md-focus) img,
 .on-focus-mode .md-task-list-item:not(.md-focus-container)>input {
-  opacity: #575E66 !important;
+  color: #575E66 !important;
 }
 
 .on-focus-mode li[cid]:not(.md-focus-container){
@@ -534,4 +535,13 @@ input {
 
 footer.stopselect {
     border-top-color: #53575C;
+}
+
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+    border-color: #53575c;
+}
+
+.ty-tooltip {
+    background-color: #3A3C3D;
+    color: #B8C8D9;
 }
