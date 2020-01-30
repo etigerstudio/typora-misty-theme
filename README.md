@@ -76,4 +76,4 @@ Font fallback list is tweaked for both English and Chinese, on both macOS and Wi
 - Text thickness & font family rendered may not be consistent on Windows of different builds or in different languages.
 - Colors of tooltips need to adjusted in dark mode.
 
-> Brought to you with ❤️ by E-Tiger Studio, 2017-2019.
+> Brought to you with ❤️ by E-Tiger Studio, 2017-2020.

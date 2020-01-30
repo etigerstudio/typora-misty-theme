@@ -11,5 +11,5 @@ Yet another `subtle`,`elegant` & `unobstructive` theme aimed at the philosophy o
 #### Tested on both macOS & Windows
 
 ```
-Brought to you with ❤️ by E-Tiger Studio, 2017-2019.
+Brought to you with ❤️ by E-Tiger Studio, 2017-2020.
 ```
