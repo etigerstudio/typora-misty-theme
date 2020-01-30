@@ -4,10 +4,11 @@
   "description": "Yet another subtle, elegant & unobstructive theme for Typora",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-clean-css": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1",
+    "gulp-touch-cmd": "0.0.1"
   },
   "repository": {
     "type": "git",
