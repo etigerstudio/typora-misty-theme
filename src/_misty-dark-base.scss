@@ -333,22 +333,6 @@ code, tt {
     margin-top: calc(0.9em - 10px);
 }
 
-@media screen and (min-width: 914px) {
-    /*body {
-        width: 854px;
-        margin: 0 auto;
-    }*/
-}
-@media print {
-    table,
-    pre {
-        page-break-inside: avoid;
-    }
-    pre {
-        word-wrap: break-word;
-    }
-}
-
 #write pre.md-meta-block {
 	padding: 1rem;
     font-size: 85%;
@@ -546,4 +530,27 @@ footer.stopselect {
 .ty-tooltip {
     background-color: #3A3C3D;
     color: #B8C8D9;
+}
+
+//@media screen and (min-width: 914px) {
+/*body {
+    width: 854px;
+    margin: 0 auto;
+}*/
+//}
+
+@media print {
+    body {
+        font-weight: 400;
+    }
+    strong, b {
+        font-weight: 600;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
 }
