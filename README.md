@@ -63,7 +63,9 @@ Compiled & optimized CSS files can then be fould in `dist\`:
 
 ## Compatibility
 
-Misty is both test on `macOS 10.13.6` and `Windows 10 version 1703`. However, it has not been tested on `Linux` thoroughly yet and will be tested in future. 
+Misty is both test on `macOS 10.13.6` to `10.15.2` and `Windows 10 version 1703`. However, it has not been tested on `Linux` thoroughly yet and will be tested in future. 
+
+Any test on Windows or Linux and any issue feedback will be welcome.
 
 Font fallback list is tweaked for both English and Chinese, on both macOS and Windows. Font weight values have been slightly adjusted on Windows to match Windows-specific rendering characteristic.
 
@@ -74,6 +76,6 @@ Font fallback list is tweaked for both English and Chinese, on both macOS and Wi
 - Colors and layouts of math block on all platforms need to be inspected and tuned.
 - Font fallback list and rendering effect has not been tested on *Linux*.
 - Text thickness & font family rendered may not be consistent on Windows of different builds or in different languages.
-- Colors of tooltips need to adjusted in dark mode.
+- ~~Colors of tooltips need to adjusted in dark mode.~~
 
 > Brought to you with ❤️ by E-Tiger Studio, 2017-2020.
