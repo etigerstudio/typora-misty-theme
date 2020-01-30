@@ -20,6 +20,27 @@ https://github.com/etigerstudio/typora-misty-theme
     --rawblock-edit-panel-bd: #3A3C3D;
     --select-text-bg-color: hsl(220, 15%, 30%);
 }
+
+.form-control {
+    background-color: var(--bg-color);
+    border-color: #53575c;
+}
+
+.modal-header {
+    border-bottom-color: #53575c;
+}
+
+.modal-footer {
+    border-top-color: #53575c;
+}
+
+.btn-default {
+    border-color: #53575c
+}
+
+.btn-primary {
+    background-color: hsl(215, 50%, 25%);
+    border-color: hsl(215, 50%, 37%);
 }
 
 html {
