@@ -1,5 +1,8 @@
 # Misty Theme
 
+[![Release](https://img.shields.io/github/release/etigerstudio/typora-misty-theme.svg)](https://github.com/etigerstudio/typora-misty-theme/releases/latest) &nbsp;
+[![Downloads](https://img.shields.io/github/downloads/etigerstudio/typora-misty-theme/total)](https://github.com/etigerstudio/typora-misty-theme/releases/latest)
+
 Yet another `subtle`,`elegant` & `unobstructive` theme aimed at the philosophy of `simplicity`, `aesthetic` and `readability`, for the awesome [Typora](https://typora.io/) markdown editor and reader.
 
 Tweaked for both English🇺🇸 & 中文🇨🇳. Works on both macOS & Windows.
