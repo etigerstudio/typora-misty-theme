@@ -1,4 +1,4 @@
-# Misty Theme
+![Hero](https://github.com/etigerstudio/typora-misty-theme/raw/master/assets/hero.png)
 
 [![Release](https://img.shields.io/github/release/etigerstudio/typora-misty-theme.svg)](https://github.com/etigerstudio/typora-misty-theme/releases/latest) &nbsp;
 [![Downloads](https://img.shields.io/github/downloads/etigerstudio/typora-misty-theme/total)](https://github.com/etigerstudio/typora-misty-theme/releases/latest)
