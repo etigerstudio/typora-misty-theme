@@ -9,7 +9,7 @@ Tweaked for both English🇺🇸 & 中文🇨🇳. Works on both macOS & Windows
 
 Ships with **Light** 🌞 & **Dark** 🌑 color schemes. [Download](https://github.com/etigerstudio/typora-misty-theme/releases/latest)
 
-## Quick Glance
+## 🙉Quick Glance
 
 Light mode:
 
@@ -23,7 +23,7 @@ Dark mode:
   <img src="https://github.com/etigerstudio/typora-misty-theme/raw/master/assets/misty-dark-demo.png" alt="misty-dark-demo" width="887"/>
 </p>
 
-## Full Preview 
+## 🔭Full Preview 
 
 <details><summary>Show light preview:</summary>
 <p align="center">
@@ -37,13 +37,13 @@ Dark mode:
 </p>
 </details>
 
-## Installation
+## 🔌Installation
 
 [Download theme stylesheets](https://github.com/etigerstudio/typora-misty-theme/releases/latest) of the platform you work on and color schemes you like. Copy it into the themes folder of Typora. Select theme name (eg. `Misty Light Macos`) form the theme list to apply it. You may restart Typora once to help it discover the theme file.
 
 For detailed reference, please see [Install Theme](https://theme.typora.io/doc/Install-Theme/).
 
-## How to Build
+## 🔨How to Build
 
 Misty is now written in SASS and the `dist\` folder has been dropped from this repo. You may directly download distributed builds from [release portal](https://github.com/etigerstudio/typora-misty-theme/releases/latest).
 
@@ -64,7 +64,7 @@ Compiled & optimized CSS files can then be fould in `dist\`:
 
 
 
-## Compatibility
+## 🖥Compatibility
 
 Misty is both test on `macOS 10.13.6` to `10.15.2` and `Windows 10 version 1703`. However, it has not been tested on `Linux` thoroughly yet and will be tested in future. 
 
@@ -72,7 +72,7 @@ Any test on Windows or Linux and any issue feedback will be welcome.
 
 Font fallback list is tweaked for both English and Chinese, on both macOS and Windows. Font weight values have been slightly adjusted on Windows to match Windows-specific rendering characteristic.
 
-## Known Issues
+## 🧟‍♂️Known Issues
 
 - ~~Borders of buttons on all platforms and context menu on *Windows* are too bright in *Dark* mode.~~
 - Text color & Background of Preference Panel on *Windows* is too bright in *Dark* mode.
