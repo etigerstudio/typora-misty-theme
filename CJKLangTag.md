@@ -1,0 +1,9 @@
+<span lang="ja-JP">器</span> is different from 器
+<span lang="ja-JP">今</span> is different from 今
+<span lang="ja-JP">世界</span> is different from 世界
+<span lang="ko">器</span> is different from 器
+<span lang="ko">今</span> is different from 今
+<span lang="ko">世界</span> is different from 世界
+<span lang="zh-Hant">器</span> is different from 器
+<span lang="zh-Hant">今</span> is different from 今
+<span lang="zh-Hant">世界</span> is different from 世界
