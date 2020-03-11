@@ -68,7 +68,7 @@ Compiled & optimized CSS files can then be fould in `dist\`:
 
 ## 🖥&nbsp;&nbsp;Compatibility
 
-Misty is both test on `macOS 10.13.6` to `10.15.2` and `Windows 10 version 1703`. However, it has not been tested on `Linux` thoroughly yet and will be tested in future. 
+Misty is both test on `macOS 10.13.6` to `10.15.3` and `Windows 10 version 1909`. However, it has not been tested on `Linux` thoroughly yet and will be tested in future. 
 
 Any test on Windows or Linux and any issue feedback will be welcome.
 
