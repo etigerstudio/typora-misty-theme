@@ -56,7 +56,7 @@ npm i --only=dev
 npx gulp build
 ```
 
-Compiled & optimized CSS files can then be fould in `dist\`:
+Compiled & optimized CSS files can then be found in `dist\`:
 
 ```
 [16:06:41] Using gulpfile ~/typora-misty-theme/gulpfile.js
